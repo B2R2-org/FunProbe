@@ -1,0 +1,16 @@
+500.perlbench_r,perlbench_r
+502.gcc_r,cpugcc_r
+505.mcf_r,mcf_r
+508.namd_r,namd_r
+510.parest_r,parest_r
+511.povray_r,povray_r
+519.lbm_r,lbm_r
+520.omnetpp_r,omnetpp_r
+523.xalancbmk_r,cpuxalan_r
+525.x264_r,x264_r
+526.blender_r,blender_r
+531.deepsjeng_r,deepsjeng_r
+538.imagick_r,imagick_r
+541.leela_r,leela_r
+544.nab_r,nab_r
+557.xz_r,xz_r

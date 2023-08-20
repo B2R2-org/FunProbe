@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="CmdOpts.fs" />
+    <Compile Include="Core.fs" />
+    <Compile Include="NopOracle.fs" />
+    <Compile Include="Disassembler.fs" />
+    <Compile Include="DataSeparator.fs" />
+    <Compile Include="NonReturningAnalyzer.fs" />
+    <Compile Include="X86SwitchPatternAnalyzer.fs" />
+    <Compile Include="X64SwitchPatternAnalyzer.fs" />
+    <Compile Include="ARM32SwitchPatternAnalyzer.fs" />
+    <Compile Include="ARM64SwitchPatternAnalyzer.fs" />
+    <Compile Include="MIPS32SwitchPatternAnalyzer.fs" />
+    <Compile Include="MIPS64SwitchPatternAnalyzer.fs" />
+    <Compile Include="SwitchAnalyzer.fs" />
+    <Compile Include="BasicBlockBuilder.fs" />
+    <Compile Include="CodeAnalyzer.fs" />
+    <Compile Include="DataAnalyzer.fs" />
+    <Compile Include="ConstraintManager.fs" />
+    <Compile Include="Dominator.fs" />
+    <Compile Include="ConstraintBuilder.fs" />
+    <Compile Include="Factor.fs" />
+    <Compile Include="FactorGraph.fs" />
+    <Compile Include="Solver.fs" />
+    <Compile Include="ExactBeliefPropagation.fs" />
+    <Compile Include="LoopyBeliefPropagation.fs" />
+    <Compile Include="TreeSolver.fs" />
+    <Compile Include="LBPSolver.fs" />
+    <Compile Include="BDPSolver.fs" />
+    <Compile Include="ConstraintSolver.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="B2R2.Core">
+      <HintPath>..\B2R2-dll\B2R2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.BinIR">
+      <HintPath>..\B2R2-dll\B2R2.BinIR.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinFile">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinFile.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinLifter.Core">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinLifter.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinLifter.Intel">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinLifter.Intel.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinLifter.ARM32">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinLifter.ARM32.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinLifter.ARM64">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinLifter.ARM64.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinLifter.MIPS">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinLifter.MIPS.dll</HintPath>
+    </Reference>
+    <Reference Include="B2R2.FrontEnd.BinInterface">
+      <HintPath>..\B2R2-dll\B2R2.FrontEnd.BinInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="B2R2.FsOptParse" Version="0.5.0" />
+  </ItemGroup>
+
+</Project>
