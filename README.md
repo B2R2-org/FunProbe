@@ -127,7 +127,7 @@ path-to-data-dir       (an example data directory)
 
 You first need to build the benchmark we used to reproduce our experiments.
 For the building instruction, see
-[here](https://softsec.kaist.ac.kr:8000/soomink/funprobe/-/blob/artifact/benchmark/README.md).
+[here](https://github.com/B2R2-org/FunProbe/blob/fse23-ae/benchmark/README.md).
 
 ### Parameter selection
 
@@ -138,7 +138,7 @@ user@ubuntu:~/FunProbe/param$ ./choose.sh <data directory>
 ```
 This will generate `binlist.txt`, which stores the list of binaries. The list
 of binaries we used in the evaluation is in
-[param/binlist.txt](https://softsec.kaist.ac.kr:8000/soomink/funprobe/-/blob/artifact/param/binlist.txt).
+[param/binlist.txt](https://github.com/B2R2-org/FunProbe/blob/fse23-ae/param/binlist.txt).
 
 We tried different parameter combinations on the small benchmark to evaluate
 their effect. To run `FunProbe` on different settings:
@@ -154,7 +154,7 @@ user@ubuntu:~/FunProbe/param$ ./report.sh <data directory>
 ### Performance evaluation
 
 We have a separate
-[document](https://softsec.kaist.ac.kr:8000/soomink/funprobe/-/blob/artifact/tools/README.md)
+[document](https://github.com/B2R2-org/FunProbe/blob/fse23-ae/tools/README.md)
 explaining how to set up various comparison targets, run them, and report the
 results.
 

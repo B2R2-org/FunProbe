@@ -10,9 +10,9 @@ a couple of GPU cores.
 
 ### Disk space
 
-For the partial benchmark, one needs 20GB of empty disk space. To build
-them, 30GB+ of empty disk space will additionally be needed. For the full
-benchmark building, it will cost around 200GB of empty disk space.
+For the partial benchmark, one needs 20GB of empty disk space. 30GB+ of empty
+disk space will additionally be needed to build the partial benchmark. For the
+full benchmark building, it will cost around 200GB of empty disk space.
 
 ## Software Requirements
 
@@ -25,7 +25,7 @@ following software dependencies:
 - Python3
 - GNU Binutils
 
-To build Docker environment, one additionally needs
+To build Docker environments, one additionally needs
 
 - Docker
 
