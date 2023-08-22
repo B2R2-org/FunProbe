@@ -10,11 +10,11 @@ Foundations of Software Engineering 2023.
 ## Dependencies
 
 To build and run FunProbe, we have the following software dependencies:
-```
-- dotnet-6.0
+
+- .NET 6.0
 - Python3
-- binutils
-```
+- GNU Binutils
+
 FunProbe is written in [F#](https://fsharp.org/). Currently, FunProbe depends
 on Python3 and binutils for extracting GOT section information of MIPS binaries
 because parsing such information is currently not supported by our front-end,

@@ -8,11 +8,11 @@ identification algorithms.
 ## Dependencies
 
 To build our benchmark, we have the following software dependencies:
-```
+
 - Python3
 - Docker
-- binutils
-```
+- GNU Binutils
+
 We have tested the benchmark building script with Python 3.10.12 and Docker
 20.10.21, but other versions should work.
 
