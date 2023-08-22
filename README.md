@@ -40,6 +40,24 @@ FunProbe         (the root directory)
  +-...
 ```
 
+### Setting up Python3
+
+`FunProbe` does not need any special Python3 packages. However, for
+experimental scripts, `pyelftools` is required. To install pyelftools,
+
+```
+user@ubuntu:~/FunProbe$ python3 -m pip install pyelftools
+```
+
+or
+
+```
+user@ubuntu:~/FunProbe$ python3 -m pip install -r requirements.txt
+```
+In this document (and other documents in this repository), we assume that you
+cloned the repository at `~/FunProbe`. The prefix before commands will indicate
+where you need to execute the command.
+
 
 ## Building FunProbe
 
@@ -47,9 +65,6 @@ Clone the repository:
 ```
 user@ubuntu:~$ git clone https://github.com/B2R2-org/FunProbe.git
 ```
-In this document (and other documents in this repository), we assume that you
-cloned the repository at `~/FunProbe`. The prefix before commands will indicate
-where you need to execute the command.
 
 To build FunProbe, type the following command:
 ```

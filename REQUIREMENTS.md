@@ -22,7 +22,7 @@ installing `FunProbe` on the naive system requires the
 following software dependencies:
 
 - .NET 6.0
-- Python3
+- Python3 (with `pyelftools` package)
 - GNU Binutils
 
 To build Docker environments, one additionally needs
