@@ -164,12 +164,12 @@ We used FunProbe as a post-processor of XDA. Therefore, running XDA on the
 benchmark should proceed. After results from XDA are prepared (under
 `<data directory>/results/xda`), run:
 ```
-user@ubuntu:~/FunProbe/integrateXDA$ ./run.sh <data directory> <# CPU cores>
+user@ubuntu:~/FunProbe/integrateXDA$ ./run[_wo_spec].sh <data directory> <# CPU cores>
 ```
 
 The results can be shown in:
 ```
-user@ubuntu:~/FunProbe/integrateXDA$ ./report.sh <data directory>
+user@ubuntu:~/FunProbe/integrateXDA$ ./report[_wo_spec].sh <data directory>
 ```
 
 

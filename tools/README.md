@@ -98,9 +98,9 @@ In order to prepare a Windows VM for `IDA pro`, follow the below steps:
 
 ## Running the experiments
 
-We provide `run_exp.py` (at `tools/ida/` for `IDA pro` and `tools/` for others)
-to easily run our comparison targets on our benchmark. It has several command
-line
+We provide `run_exp.py` (at `tools/ida/` for `IDA pro` and
+`tools/scripts_w_spec/` and `tools/scripts_wo_spec/` for others) to easily run
+our comparison targets on our benchmark. It has several command line
 options:
 - `--datadir`: specifies a directory where the benchmark directory `bench` is
   placed at.
@@ -116,7 +116,7 @@ options:
 To run `Ghidra`, `Nucleus`, `Binary Ninja`, and `XDA`, try to execute the
 following command with the appropriate tool name:
 ```
-user@ubuntu:~/FunProbe/tools$ ./run_[toolname].sh <data directory> <# CPU cores>
+user@ubuntu:~/FunProbe/tools/scripts_w[o]_spec$ ./run_[toolname].sh <data directory> <# CPU cores>
 ```
 
 ### Running IDA pro
@@ -138,5 +138,5 @@ several commandline options:
 We also provide `show_[toolname].sh` scripts so that you don't need to care
 about the command line options. To use them:
 ```
-user@ubuntu:~/FunProbe/tools$ ./show_[toolname].sh <data directory>
+user@ubuntu:~/FunProbe/tools/scripts_w[o]_spec$ ./show_[toolname].sh <data directory>
 ```
