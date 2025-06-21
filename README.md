@@ -192,5 +192,15 @@ user@ubuntu:~/FunProbe/integrateXDA$ ./report[_wo_spec].sh <data directory>
 
 If you use `FunProbe` in scientific work, consider citing our paper:
 ```
-T.B.D.
+@inproceedings{kim:fse:2023,
+  author = {Kim, Soomin and Kim, Hyungseok and Cha, Sang Kil},
+  title = {{FunProbe}: Probing Functions from Binary Code through Probabilistic Analysis},
+  year = {2023},
+  url = {https://dl.acm.org/doi/10.1145/3611643.3616366},
+  doi = {10.1145/3611643.3616366},
+  booktitle = {Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+  pages = {1419–1430},
+  numpages = {12},
+  series = {ESEC/FSE '23}
+}
 ```
